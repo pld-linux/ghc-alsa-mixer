@@ -8,6 +8,7 @@ Group:		Development/Languages
 Source0:	http://hackage.haskell.org/packages/archive/%{pkgname}/%{version}/%{pkgname}-%{version}.tar.gz
 # Source0-md5:	2f5931fa7c82f66b9e4c9e4cf4c3e406
 URL:		http://hackage.haskell.org/package/alsa-mixer/
+BuildRequires:	alsa-lib-devel
 BuildRequires:	ghc >= 6.12.3
 BuildRequires:	ghc-alsa-core >= 0.5
 BuildRequires:	ghc-c2hs
