@@ -1,12 +1,12 @@
 %define		pkgname	alsa-mixer
 Summary:	A Haskell binding to the alsa-mixer graphics library
 Name:		ghc-%{pkgname}
-Version:	0.2.0.3
+Version:	0.3.0
 Release:	1
 License:	BSD
 Group:		Development/Languages
 Source0:	http://hackage.haskell.org/packages/archive/%{pkgname}/%{version}/%{pkgname}-%{version}.tar.gz
-# Source0-md5:	2f5931fa7c82f66b9e4c9e4cf4c3e406
+# Source0-md5:	f5384dbbef508bd965dd0c4490b893b2
 URL:		http://hackage.haskell.org/package/alsa-mixer/
 BuildRequires:	alsa-lib-devel
 BuildRequires:	ghc >= 6.12.3
